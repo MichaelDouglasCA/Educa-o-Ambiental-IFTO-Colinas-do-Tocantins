@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educação Ambiental</title>
+    <style>
+        /* Estilos CSS podem ser adicionados aqui */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            line-height: 1.6;
+            text-align: center;
+            /* Centraliza todo o texto */
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header img {
+            width: 80px;
+            /* Altere o tamanho da imagem aqui */
+            margin-right: 10px;
+        }
+
+        nav {
+            background-color: #388E3C;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 30px;
+            text-align: justify;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* Centraliza os elementos dentro da seção */
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            margin: 0 10px;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .video-container iframe {
+            max-width: 100%;
+            height: 400px;
+        }
+
+        .icon-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .icon {
+            font-size: 24px;
+            margin-right: 5px;
+        }
+
+        .source {
+            font-style: italic;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 28px;
+            line-height: 10px;
+            text-align: center;
+            cursor: pointer;
+            z-index: 999;
+        }
+
+        /* Estilo para dispositivos móveis */
+        @media (max-width: 768px) {
+            header img {
+                width: 60px;
+                /* Reduz o tamanho da imagem no cabeçalho */
+            }
+
+            .livros {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .livros a {
+                margin: 10px;
+            }
+
+            .livros img {
+                width: 80%;
+                /* Define a largura das imagens dos livros */
+                max-width: 200px;
+                /* Define o tamanho máximo das imagens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="Acess/if.png" alt="Ícone de Educação Ambiental">
+        <h1>Educação Ambiental</h1>
+    </header>
+    <button class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">&#8593;</button>
+    <nav>
+        <a href="index.html">Página Inicial</a>
+        <a href="livros.html">Livros</a>
+        <a href="acervo.html">Apresentação</a>
+    </nav>
+
+    <p class="ident">
+        Livros Relacionados
+    </p>
+
+    <div class="livros">
+        <a href="https://www.amazon.com.br/Marketing-Ambiental-Responsabilidade-Competitividade-Neg%C3%B3cios/dp/8522446768"
+            target="_blank">
+            <img src="https://m.media-amazon.com/images/I/51H1rNOFCpL.jpg" alt="Marketing Ambiental" />
+        </a>
+        <a href="https://www.amazon.com.br/EDUCA%C3%87%C3%83O-AMBIENTAL-Cleber-Silva-Costa-ebook/dp/B0CWYJ915T/ref=sr_1_5?dib=eyJ2IjoiMSJ9.DlqgqUZH-UK9c62bE-lzFKEHRbcOuPQjPCrdNuxlXoWDgHPp-X4NoWW75ydycaio_y4jJrnwlT88aoa4S-FNI58O4oz2jUKNmTz7QbDQirXkE-4-_9f_yOF5DaaPdzMGf4EK9AfiUqvrwQ759j89kEEk2NtcXNpMPnx3BzwMrdXhVXpm8gy-gVl68igWyGeK6oqYYhRrHJNJ9OrOTqw6ujQr2vK8fdHegkmaYsZKBtPO2OQpkeflDpzafNuvBHovBiVTgTAJfm02mNlIzN3Nn2OFe14pWJpLMCYDEwSv3wg.LwATAv0Lnz4Hkehjm0Q7mQ2wrHvA5qtyIocil2sGMQE&dib_tag=se&keywords=educa%C3%A7%C3%A3o+ambiental&qid=1710781166&sr=8-5"
+            target="_blank">
+            <img src="https://m.media-amazon.com/images/I/91bhWzf1yrL._SY466_.jpg" alt="Educação Ambiental" />
+        </a>
+        <a style="margin-bottom: 100px;"
+            href="https://www.amazon.com.br/Caminhos-Desenvolvimento-Sustent%C3%A1vel-Ignacy-Sachs/dp/858643535X/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=36QJX389R7ADB&dib=eyJ2IjoiMSJ9.Nmb7R_dlw4HnBgGoAqCPvEO3ojiMsTpBM1tsihfR_1BBHF-tK64G_xF_VOLsil3DWOGgCV5-2j8XOuPChrzwcqWzSL50_gM_enTvuMpJX-_7ifuKJY-wEIzcpXyXphQ8tUEg7v9d-ibHZK-w-CkbKO94CS1_Ar8BCtEGsOvZPYX6MSPhQb21cA9cwAHUALXyJBEkVVb2sbdKgFShO8SEEp05WBcw1z_6K2kdWyeVF1VoE3PM6fo2AMh9d3tPlMyhaSgjiYZ6QFb66k5wZ_Y2rjt_ieANAN9-kEswbV1nYC0.iaDBWmvYMlvRwuPrQDpgoYh2bsbJy4owSHf_UEtH13w&dib_tag=se&keywords=Desenvolvimento+Sustent%C3%A1vel&qid=1710781373&sprefix=desenvolvimento+sustent%C3%A1vel%2Caps%2C206&sr=8-5"
+            target="_blank">
+            <img src="https://m.media-amazon.com/images/I/51eCjy2mtgL._SY466_.jpg" alt="Desenvolvimento Sustentável" />
+        </a>
+    </div>
+
+</body>
+
+<footer>
+    &copy; 2024 Educação Ambiental - Todos os direitos reservados.
+</footer>
+
+</html>

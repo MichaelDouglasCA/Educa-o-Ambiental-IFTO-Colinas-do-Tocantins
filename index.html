@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educação Ambiental</title>
+    <style>
+        /* Estilos CSS podem ser adicionados aqui */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            line-height: 1.6;
+            text-align: center;
+            /* Centraliza todo o texto */
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header img {
+            width: 80px;
+            /* Altere o tamanho da imagem aqui */
+            margin-right: 10px;
+        }
+
+        nav {
+            background-color: #388E3C;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 30px;
+            text-align: justify;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* Centraliza os elementos dentro da seção */
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            margin: 0 10px;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .video-container iframe {
+            max-width: 100%;
+            height: 400px;
+        }
+
+        .icon-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .icon {
+            font-size: 24px;
+            margin-right: 5px;
+        }
+
+        .source {
+            font-style: italic;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 28px;
+            line-height: 10px;
+            text-align: center;
+            cursor: pointer;
+            z-index: 999;
+        }
+
+        @media (max-width: 768px) {
+
+            .image-container,
+            .video-container {
+                flex-direction: column;
+            }
+
+            iframe {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="Acess/if.png" alt="Ícone de Educação Ambiental">
+        <h1>Educação Ambiental</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Página Inicial</a>
+        <a href="livros.html">Livros</a>
+        <a href="acervo.html">Apresentação</a>
+    </nav>
+
+    <section>
+        <h1>Linha do Tempo da Educação Ambiental</h1>
+        <button class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">&#8593;</button>
+        <ul class="timeline">
+            <li class="timeline-item">
+                <h2>Meados do século XIX</h2>
+                <p>Início da Revolução Industrial, marcando o início de um processo acelerado de degradação ambiental em
+                    larga escala.
+                <P>1863: Publicação de "Evidence as to Man's Place in Nature" por Thomas Huxley, e "Man and Nature: Or,
+                    Physical Geography as Modified by Human Action" por George Perkins Marsh, que destacam a preocupação
+                    com a exploração desmedida dos recursos naturais.</P>
+                <P>1872: Fundação do Parque Nacional de Yellowstone nos Estados Unidos, primeira unidade de conservação
+                    da biodiversidade.</P>
+                </p>
+            </li>
+            <li class="timeline-item">
+                <h2>Século XX</h2>
+                <p>Década de 1950: Surgimento de debates sobre questões ambientais, impulsionados pela cobertura
+                    midiática e eventos como o grande nevoeiro de 1952 em Londres e a tragédia de Minamata em 1956.</p>
+                <p>1956: Londres, Reino Unido, promulga o Clean Air Act em resposta ao grande nevoeiro, introduzindo
+                    medidas para reduzir a poluição atmosférica.</p>
+                <P>1962: Publicação de "Silent Spring" por Rachel Carson, criticando o uso de pesticidas e destacando os
+                    efeitos nocivos para o meio ambiente.</P>
+                <P>1965: Promulgação da Lei nº 4.771/65 no Brasil, alterando o Código Florestal e refletindo
+                    preocupações ambientais.</P>
+                <P>1968: Fundação do Clube de Roma, que discute questões ambientais e publica o relatório "The limits to
+                    growth" em 1972.
+                </P>
+                <P>1972: Realização da Conferência de Estocolmo, primeira Conferência Mundial sobre o Ambiente Humano, e
+                    criação do Programa das Nações Unidas para o Meio Ambiente (PNUMA).
+                </P>
+                <P>1973: Criação da Secretaria Especial do Meio Ambiente (SEMA) no Brasil.</P>
+                <P>1977: Realização do primeiro Seminário Internacional sobre Educação Ambiental em Belgrado, resultando
+                    na Carta de Belgrado. </P>
+                <P> 1978: Realização da Conferência Intergovernamental sobre a Educação Ambiental em Tblisi, definindo
+                    objetivos e princípios da educação ambiental. </P>
+                <P>1981: Sancionada no Brasil a Lei 6.938/81, instituindo a Política Nacional do Meio Ambiente e
+                    destacando a importância da educação ambiental. </P>
+                <P>1983: Criação da Comissão Mundial sobre Meio Ambiente e Desenvolvimento (WCED) e publicação do
+                    relatório "Nosso futuro comum" (Relatório Brundtland). </P>
+                <P>1987: Assinatura da Constituição Federal do Brasil, incluindo disposições sobre a proteção do meio
+                    ambiente e a promoção da educação ambiental. </P>
+                <P>1989: Criação do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA) no
+                    Brasil. </P>
+
+                <P>1992: Realização da Conferência das Nações Unidas para o Meio Ambiente e o Desenvolvimento (Eco-92)
+                    no Rio de Janeiro, resultando na assinatura da Agenda 21 e no reconhecimento do desenvolvimento
+                    sustentável como objetivo global.</P>
+                <P>1992: Realização do Congresso Internacional sobre Educação e Formação Ambiental em Moscou, discutindo
+                    estratégias para a educação ambiental nos anos 1990. Estabelecimento da Convenção da Biodiversidade,
+                    um tratado internacional multilateral com o objetivo de conservar a biodiversidade e seu uso
+                    sustentável, além de garantir a distribuição justa dos benefícios do patrimônio genético.
+                    Criação da Convenção-Quadro das Nações Unidas sobre as Mudanças Climáticas, com o principal objetivo
+                    de reduzir as emissões de gases de efeito estufa para a atmosfera.</P>
+                <P>1994: Criação do Programa Nacional de Educação Ambiental (PRONEA) no Brasil, compartilhado entre o
+                    Ministério do Meio Ambiente, dos Recursos Hídricos e da Amazônia Legal e o Ministério da Educação e
+                    do Desporto.</P>
+                <P>1997: Aprovação dos Parâmetros Curriculares Nacionais (PCN) pelo Conselho Nacional de Educação.
+                    Realização da 1ª Conferência de Educação Ambiental em Brasília, resultando na Carta de Brasília para
+                    a Educação Ambiental.</P>
+                <P>1999:Promulgação da Política Nacional de Educação Ambiental (PNEA) no Brasil, Lei 9.795/99,
+                    fundamental para a consolidação da educação ambiental na legislação brasileira.</P>
+            </li>
+            <li class="timeline-item">
+                <h2>Século XXI</h2>
+                <P>2002: Regulamentação da PNEA pelo Decreto nº 4.281/2002.</P>
+                <P>2012: Estabelecimento das Diretrizes Nacionais para Educação em Direitos Humanos e das Diretrizes.
+                </P>
+
+                <P> <small> Curriculares Nacionais para a Educação Ambiental pelo Conselho Nacional de Educação.</small>
+                </P>
+                <P> <small> Resolução CNE/CP 2/2012: Diretrizes Curriculares Nacionais para a Educação
+                        Ambiental.</small></P>
+
+                <P> 2019-2020: Extinção do Departamento de Educação Ambiental (DEA) do Ministério do Meio Ambiente e
+                    criação do Departamento de Educação e Cidadania Ambiental vinculado à Secretaria de Biodiversidade.
+                    Redução drástica de recursos destinados à educação ambiental, dificultando sua efetivação no país.
+                </P>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Promovendo a Educação Ambiental no Brasil</h2>
+        <p>O desenvolvimento da educação ambiental no Brasil é uma jornada marcada por avanços significativos, mas
+            também por desafios persistentes. Desde as primeiras discussões sobre a importância da conscientização
+            ambiental até as resoluções das grandes conferências internacionais, como a Eco-92, o país tem buscado
+            integrar a educação ambiental em seu arcabouço legal e político.</p>
+        <p>A promulgação da Política Nacional de Educação Ambiental (PNEA) em 1999 foi um marco crucial, pois conferiu à
+            educação ambiental o status de direito e dever, tanto do Estado quanto da sociedade. No entanto, a
+            implementação efetiva dessa política tem enfrentado obstáculos significativos. Um dos principais desafios é
+            a redução dos recursos financeiros destinados a programas educacionais ambientais, o que limita sua
+            abrangência e impacto.</p>
+        <p>Além disso, a fragmentação das estruturas institucionais responsáveis pela coordenação da educação ambiental
+            também dificulta sua efetivação. A falta de integração entre diferentes órgãos governamentais e instituições
+            da sociedade civil pode resultar em iniciativas desarticuladas e pouco eficazes.</p>
+        <p>As Diretrizes Curriculares Nacionais para a Educação Ambiental (DCNEA) representam outro avanço importante,
+            ao enfatizarem a necessidade de inserção transversal da educação ambiental nos currículos escolares. No
+            entanto, a complexidade do sistema educacional brasileiro muitas vezes dificulta essa integração, pois
+            requer uma revisão profunda das práticas pedagógicas e da formação de professores.</p>
+        <p>Portanto, para superar esses desafios e efetivamente promover a educação ambiental no Brasil, é fundamental
+            um esforço conjunto que envolva não apenas o fortalecimento do apoio político e dos recursos financeiros,
+            mas também a capacitação e formação contínua de educadores comprometidos com a causa ambiental. Somente
+            assim será possível construir uma sociedade mais consciente e engajada na promoção da sustentabilidade e na
+            preservação do meio ambiente para as gerações futuras.</p>
+
+
+
+
+        <!-- Botão para baixar o PDF -->
+        <h1 style="text-align: center;">Artigo: A Educação Ambiental no Brasil: marcos legais e implementação curricular
+        </h1>
+        <div class="icon-container">
+            <a href="Acess/educa.pdf" download>
+                <button>Download PDF</button>
+            </a>
+        </div>
+
+        <div class="icon-container">
+            <a href="https://www.periodicos.rc.biblioteca.unesp.br/index.php/pesquisa/article/view/17629">
+                <span class="icon">&#x1F4D6;</span><span class="source">Fonte: Revista Pesquisa em Educação
+                    Ambiental</span>
+            </a>
+        </div>
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hvpi8l500VQ" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
+
+
+        <div class="icon-container" style="margin-bottom: 15%;">
+            <a href="https://www.youtube.com/@marcela.miranda">
+                <span class="icon">&#x1F4D6;</span><span class="source">Fonte: Youtube: EDUCAÇÃO AMBIENTAL | MEIO
+                    AMBIENTE | Marcela Miranda</span>
+            </a>
+        </div>
+
+    </section>
+
+    <footer>
+        &copy; 2024 Educação Ambiental - Todos os direitos reservados.
+    </footer>
+
+</body>
+
+</html>
