@@ -1,3 +1,31 @@
+# Instituto Federal do Tocantins
+## Campus - Colinas do Tocantins
+### Curso: Licenciatura em Computação
+
+### Diretório Base do Site: GitHub 
+
+## Equipe de Desenvolvimento e Apresentação
+
+### Membro 1
+![Foto do Membro 1](https://avatars.githubusercontent.com/u/105525805?v=4.jpg)(#)
+**Michael Douglas**  
+Graduando em Licenciatura em Computação  
+Função: Desenvolvedor Front-Back-end
+
+### Membro 2
+![Foto do Membro 2](https://avatars.githubusercontent.com/u/104952652?v=4.jpg)(#)
+**Diego Dias**  
+Graduando em Licenciatura em Computação  
+Função: Produção do Conteúdo e Apresentação
+
+### Membro 3
+![Foto do Membro 3](https://avatars.githubusercontent.com/u/113299679?v=4.jpg)(#)
+**Juliana**  
+Graduanda em Licenciatura em Computação  
+Função: Produção do Conteúdo e Apresentação  
+
+---
+
 # Educação Ambiental - Projeto
 
 Este projeto é dedicado à Educação Ambiental e apresenta um site simples que explora a linha do tempo da educação ambiental e os marcos históricos significativos relacionados à preservação do meio ambiente.
