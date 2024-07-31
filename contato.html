@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento e Apresentação do Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        .back-button {
+            margin-bottom: 20px;
+        }
+
+        .back-button a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #0073b1;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button a:hover {
+            background-color: #005f8a;
+        }
+
+        .ifto {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .institution-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .institution-info img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .institution-info h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #0073b1;
+        }
+
+        .institution-info p, .institution-info small {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: #555;
+            font-size: 20px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #0073b1;
+        }
+
+        .team-members {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-members h2 {
+            margin: 0 0 20px;
+            font-size: 28px;
+            color: #0073b1;
+            text-align: center;
+        }
+
+        .team-member {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+
+        .team-member-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .team-member-info img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .team-member-info h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .team-member-info p {
+            margin: 5px 0 0;
+            font-size: 16px;
+            color: #777;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: #777;
+            font-size: 20px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #0073b1;
+        }
+
+        @media (min-width: 768px) {
+            .ifto {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .institution-info {
+                text-align: left;
+            }
+
+            .institution-info img {
+                margin-right: 20px;
+                margin-bottom: 0;
+            }
+
+            .team-member {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .team-member-info {
+                flex-direction: row;
+                align-items: center;
+                text-align: left;
+            }
+
+            .team-member-info img {
+                margin-right: 20px;
+                margin-bottom: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="back-button">
+        <a href="javascript:history.back()"><i class="fas fa-arrow-left"></i> Voltar</a>
+    </div>
+
+    <section class="ifto">
+        <div class="institution-info">
+            <img src="Assets/if.png" alt="Logo da Instituição">
+            <div>
+                <h2>Instituto Federal do Tocantins</h2>
+                <small>Campus - Colinas do Tocantins</small>
+                <p>Autor: Nome do Autor</p>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/ifto.colinas/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.ifto.edu.br/colinas" target="_blank" title="Seu Site"><i class="fas fa-globe"></i></a>
+            <a href="https://www.linkedin.com/school/ifto-instituto-federal-de-educa%C3%A7%C3%A3o-ci%C3%AAncia-e-tecnologia-do-tocantins/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <section class="team-members">
+        <h2>Equipe de Desenvolvimento e Apresentação</h2>
+        <div class="team-member">
+            <div class="team-member-info">
+                <img src="https://avatars.githubusercontent.com/u/105525805?v=4" alt="Foto do Membro 1">
+                <div>
+                    <h3>Michael Douglas</h3>
+                    <small>Graduando em Licenciatura em Computação</small>
+                    <p>Função: Desenvolvedor Front-Back-end</p>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/MichaelDouglasCA" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/Usuario1" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/michael-douglas-cruz-alves-25238414b/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="team-member-info">
+                <img src="https://via.placeholder.com/80" alt="Foto do Membro 2">
+                <div>
+                    <h3>Nome do Membro 2</h3>
+                    <p>Função: Desenvolvedor Back-end</p>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/Usuario2" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/Usuario2" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/Usuario2/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        
+    </section>
+
+</body>
+
+</html>
