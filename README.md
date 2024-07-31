@@ -11,21 +11,21 @@
 **Michael Douglas**  
 Graduando em Licenciatura em Computação  
 Função: Desenvolvedor Front-Back-end
-GitHub: [aqui](https://github.com/MichaelDouglasCA).
+ - GitHub: [aqui](https://github.com/MichaelDouglasCA).
 
 ### Membro 2
 ![Foto do Membro 2](https://avatars.githubusercontent.com/u/104952652?v=4.jpg)(#)
 **Diego Dias**  
 Graduando em Licenciatura em Computação  
 Função: Produção do Conteúdo e Apresentação
-GitHub: [aqui](https://github.com/Diegoif23).
+ - GitHub: [aqui](https://github.com/Diegoif23).
 
 ### Membro 3
 ![Foto do Membro 3](https://avatars.githubusercontent.com/u/113299679?v=4.jpg)(#)
 **Juliana**  
 Graduanda em Licenciatura em Computação  
 Função: Produção do Conteúdo e Apresentação  
-GitHub: [aqui](https://github.com/j5ul1ana).
+ - GitHub: [aqui](https://github.com/j5ul1ana).
 ---
 
 # Educação Ambiental - Projeto
