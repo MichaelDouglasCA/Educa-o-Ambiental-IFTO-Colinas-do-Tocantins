@@ -54,7 +54,8 @@
         section {
             padding: 30px;
             text-align: justify;
-            margin-top: 60px; /* Adicionado para compensar a altura do menu fixo */
+            margin-top: 60px;
+            /* Adicionado para compensar a altura do menu fixo */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -128,7 +129,8 @@
             cursor: pointer;
             z-index: 999;
             transition: background-color 0.3s;
-            display: none; /* Ocultar por padrão */
+            display: none;
+            /* Ocultar por padrão */
         }
 
         .back-to-top:hover {
@@ -180,6 +182,7 @@
         }
 
         @media (max-width: 768px) {
+
             .image-container,
             .video-container {
                 flex-direction: column;
@@ -190,15 +193,50 @@
             }
 
             .back-to-top {
-                display: block; /* Exibir apenas em dispositivos móveis */
+                display: block;
+                /* Exibir apenas em dispositivos móveis */
             }
-            .titulo{
-            margin-top: 30%;
+
+            .titulo {
+                margin-top: 30%;
+                text-align: center;
+                margin-bottom: 1%;
+            }
+        }
+
+
+        .center-content {
             text-align: center;
-            margin-bottom: 1%;
         }
+
+        .article-title {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
         }
-       
+
+        .article-meta {
+            text-align: center;
+            font-size: 0.875rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .article-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-section h2 {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+
+        .article-section p {
+            line-height: 1.6;
+        }
     </style>
 </head>
 
@@ -206,14 +244,14 @@
 
 <body>
 
-   
+
     <nav>
         <header>
             <img src="Assets/if.png" alt="Ícone de Educação Ambiental">
             <h1>Educação Ambiental</h1>
             <i class="fas fa-leaf icon" aria-hidden="true"></i>
         </header>
-        
+
         <a href="index.html"><i class="fas fa-home"></i> Página Inicial</a>
         <a href="livros.html"><i class="fas fa-book"></i> Livros</a>
         <a href="acervo.html"><i class="fas fa-info-circle"></i> Apresentação</a>
@@ -226,73 +264,135 @@
         <ul class="timeline">
             <li class="timeline-item">
                 <h2>Meados do século XIX</h2>
-                <p>Início da Revolução Industrial, marcando o início de um processo acelerado de degradação ambiental em larga escala.</p>
-                <p>1863: Publicação de "Evidence as to Man's Place in Nature" por Thomas Huxley, e "Man and Nature: Or, Physical Geography as Modified by Human Action" por George Perkins Marsh, que destacam a preocupação com a exploração desmedida dos recursos naturais.</p>
-                <p>1872: Fundação do Parque Nacional de Yellowstone nos Estados Unidos, primeira unidade de conservação da biodiversidade.</p>
+                <p>Início da Revolução Industrial, marcando o início de um processo acelerado de degradação ambiental em
+                    larga escala.</p>
+                <p>1863: Publicação de "Evidence as to Man's Place in Nature" por Thomas Huxley, e "Man and Nature: Or,
+                    Physical Geography as Modified by Human Action" por George Perkins Marsh, que destacam a preocupação
+                    com a exploração desmedida dos recursos naturais.</p>
+                <p>1872: Fundação do Parque Nacional de Yellowstone nos Estados Unidos, primeira unidade de conservação
+                    da biodiversidade.</p>
             </li>
             <li class="timeline-item">
                 <h2>Século XX</h2>
-                <p>Década de 1950: Surgimento de debates sobre questões ambientais, impulsionados pela cobertura midiática e eventos como o grande nevoeiro de 1952 em Londres e a tragédia de Minamata em 1956.</p>
-                <p>1956: Londres, Reino Unido, promulga o Clean Air Act em resposta ao grande nevoeiro, introduzindo medidas para reduzir a poluição atmosférica.</p>
-                <p>1962: Publicação de "Silent Spring" por Rachel Carson, criticando o uso de pesticidas e destacando os efeitos nocivos para o meio ambiente.</p>
-                <p>1965: Promulgação da Lei nº 4.771/65 no Brasil, alterando o Código Florestal e refletindo preocupações ambientais.</p>
-                <p>1968: Fundação do Clube de Roma, que discute questões ambientais e publica o relatório "The limits to growth" em 1972.</p>
-                <p>1972: Realização da Conferência de Estocolmo, primeira Conferência Mundial sobre o Ambiente Humano, e criação do Programa das Nações Unidas para o Meio Ambiente (PNUMA).</p>
+                <p>Década de 1950: Surgimento de debates sobre questões ambientais, impulsionados pela cobertura
+                    midiática e eventos como o grande nevoeiro de 1952 em Londres e a tragédia de Minamata em 1956.</p>
+                <p>1956: Londres, Reino Unido, promulga o Clean Air Act em resposta ao grande nevoeiro, introduzindo
+                    medidas para reduzir a poluição atmosférica.</p>
+                <p>1962: Publicação de "Silent Spring" por Rachel Carson, criticando o uso de pesticidas e destacando os
+                    efeitos nocivos para o meio ambiente.</p>
+                <p>1965: Promulgação da Lei nº 4.771/65 no Brasil, alterando o Código Florestal e refletindo
+                    preocupações ambientais.</p>
+                <p>1968: Fundação do Clube de Roma, que discute questões ambientais e publica o relatório "The limits to
+                    growth" em 1972.</p>
+                <p>1972: Realização da Conferência de Estocolmo, primeira Conferência Mundial sobre o Ambiente Humano, e
+                    criação do Programa das Nações Unidas para o Meio Ambiente (PNUMA).</p>
                 <p>1973: Criação da Secretaria Especial do Meio Ambiente (SEMA) no Brasil.</p>
-                <p>1977: Realização do primeiro Seminário Internacional sobre Educação Ambiental em Belgrado, resultando na Carta de Belgrado.</p>
-                <p>1978: Realização da Conferência Intergovernamental sobre a Educação Ambiental em Tblisi, definindo objetivos e princípios da educação ambiental.</p>
-                <p>1981: Sancionada no Brasil a Lei 6.938/81, instituindo a Política Nacional do Meio Ambiente e destacando a importância da educação ambiental.</p>
-                <p>1983: Criação da Comissão Mundial sobre Meio Ambiente e Desenvolvimento (WCED) e publicação do relatório "Nosso futuro comum" (Relatório Brundtland).</p>
-                <p>1987: Assinatura da Constituição Federal do Brasil, incluindo disposições sobre a proteção do meio ambiente e a promoção da educação ambiental.</p>
-                <p>1989: Criação do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA) no Brasil.</p>
-                <p>1992: Realização da Conferência das Nações Unidas para o Meio Ambiente e o Desenvolvimento (Eco-92) no Rio de Janeiro, resultando na assinatura da Agenda 21 e no reconhecimento do desenvolvimento sustentável como objetivo global.</p>
-                <p>1992: Realização do Congresso Internacional sobre Educação e Formação Ambiental em Moscou, discutindo estratégias para a educação ambiental nos anos 1990. Estabelecimento da Convenção da Biodiversidade, um tratado internacional multilateral com o objetivo de conservar a biodiversidade e seu uso sustentável, além de garantir a distribuição justa dos benefícios do patrimônio genético. Criação da Convenção-Quadro das Nações Unidas sobre as Mudanças Climáticas, com o principal objetivo de reduzir as emissões de gases de efeito estufa para a atmosfera.</p>
-                <p>1994: Criação do Programa Nacional de Educação Ambiental (PRONEA) no Brasil, compartilhado entre o Ministério do Meio Ambiente, dos Recursos Hídricos e da Amazônia Legal e o Ministério da Educação e do Desporto, e desenvolvido pela Secretaria de Educação Fundamental. Realização da Conferência Nacional de Educação Ambiental (CONEA) em Brasília, promovida pelo PRONEA, resultando em propostas para políticas públicas e ações educativas.</p>
-                <p>1997: Realização da Conferência Internacional de Educação Ambiental de Thessaloniki na Grécia, revisando a Declaração de Tbilisi e debatendo os desafios para o século XXI.</p>
-                <p>1999: Aprovação da Lei 9.795/99, que institui a Política Nacional de Educação Ambiental e define a educação ambiental como um componente essencial e permanente da educação nacional, devendo estar presente em todos os níveis e modalidades do processo educativo, em caráter formal e não formal.</p>
+                <p>1977: Realização do primeiro Seminário Internacional sobre Educação Ambiental em Belgrado, resultando
+                    na Carta de Belgrado.</p>
+                <p>1978: Realização da Conferência Intergovernamental sobre a Educação Ambiental em Tblisi, definindo
+                    objetivos e princípios da educação ambiental.</p>
+                <p>1981: Sancionada no Brasil a Lei 6.938/81, instituindo a Política Nacional do Meio Ambiente e
+                    destacando a importância da educação ambiental.</p>
+                <p>1983: Criação da Comissão Mundial sobre Meio Ambiente e Desenvolvimento (WCED) e publicação do
+                    relatório "Nosso futuro comum" (Relatório Brundtland).</p>
+                <p>1987: Assinatura da Constituição Federal do Brasil, incluindo disposições sobre a proteção do meio
+                    ambiente e a promoção da educação ambiental.</p>
+                <p>1989: Criação do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA) no
+                    Brasil.</p>
+                <p>1992: Realização da Conferência das Nações Unidas para o Meio Ambiente e o Desenvolvimento (Eco-92)
+                    no Rio de Janeiro, resultando na assinatura da Agenda 21 e no reconhecimento do desenvolvimento
+                    sustentável como objetivo global.</p>
+                <p>1992: Realização do Congresso Internacional sobre Educação e Formação Ambiental em Moscou, discutindo
+                    estratégias para a educação ambiental nos anos 1990. Estabelecimento da Convenção da Biodiversidade,
+                    um tratado internacional multilateral com o objetivo de conservar a biodiversidade e seu uso
+                    sustentável, além de garantir a distribuição justa dos benefícios do patrimônio genético. Criação da
+                    Convenção-Quadro das Nações Unidas sobre as Mudanças Climáticas, com o principal objetivo de reduzir
+                    as emissões de gases de efeito estufa para a atmosfera.</p>
+                <p>1994: Criação do Programa Nacional de Educação Ambiental (PRONEA) no Brasil, compartilhado entre o
+                    Ministério do Meio Ambiente, dos Recursos Hídricos e da Amazônia Legal e o Ministério da Educação e
+                    do Desporto, e desenvolvido pela Secretaria de Educação Fundamental. Realização da Conferência
+                    Nacional de Educação Ambiental (CONEA) em Brasília, promovida pelo PRONEA, resultando em propostas
+                    para políticas públicas e ações educativas.</p>
+                <p>1997: Realização da Conferência Internacional de Educação Ambiental de Thessaloniki na Grécia,
+                    revisando a Declaração de Tbilisi e debatendo os desafios para o século XXI.</p>
+                <p>1999: Aprovação da Lei 9.795/99, que institui a Política Nacional de Educação Ambiental e define a
+                    educação ambiental como um componente essencial e permanente da educação nacional, devendo estar
+                    presente em todos os níveis e modalidades do processo educativo, em caráter formal e não formal.</p>
             </li>
             <li class="timeline-item">
                 <h2>Século XXI</h2>
-                <p>2000: Lançamento dos Objetivos de Desenvolvimento do Milênio (ODM) pela ONU, incluindo metas para a sustentabilidade ambiental.</p>
-                <p>2002: Realização da Cúpula Mundial sobre Desenvolvimento Sustentável em Joanesburgo, reafirmando o compromisso global com o desenvolvimento sustentável.</p>
-                <p>2003: Publicação da Carta da Terra, um documento que propõe princípios éticos fundamentais para a construção de uma sociedade global justa, sustentável e pacífica.</p>
-                <p>2005: Início da Década das Nações Unidas da Educação para o Desenvolvimento Sustentável (2005-2014), promovendo a integração da educação para o desenvolvimento sustentável em todos os níveis educacionais.</p>
-                <p>2012: Realização da Conferência das Nações Unidas sobre Desenvolvimento Sustentável (Rio+20), resultando no documento "O futuro que queremos".</p>
-                <p>2015: Adoção dos Objetivos de Desenvolvimento Sustentável (ODS) pela ONU, estabelecendo metas globais para 2030, incluindo a educação de qualidade e a ação climática.</p>
+                <p>2000: Lançamento dos Objetivos de Desenvolvimento do Milênio (ODM) pela ONU, incluindo metas para a
+                    sustentabilidade ambiental.</p>
+                <p>2002: Realização da Cúpula Mundial sobre Desenvolvimento Sustentável em Joanesburgo, reafirmando o
+                    compromisso global com o desenvolvimento sustentável.</p>
+                <p>2003: Publicação da Carta da Terra, um documento que propõe princípios éticos fundamentais para a
+                    construção de uma sociedade global justa, sustentável e pacífica.</p>
+                <p>2005: Início da Década das Nações Unidas da Educação para o Desenvolvimento Sustentável (2005-2014),
+                    promovendo a integração da educação para o desenvolvimento sustentável em todos os níveis
+                    educacionais.</p>
+                <p>2012: Realização da Conferência das Nações Unidas sobre Desenvolvimento Sustentável (Rio+20),
+                    resultando no documento "O futuro que queremos".</p>
+                <p>2015: Adoção dos Objetivos de Desenvolvimento Sustentável (ODS) pela ONU, estabelecendo metas globais
+                    para 2030, incluindo a educação de qualidade e a ação climática.</p>
                 <p>2017: Realização do 6º Fórum Mundial de Educação Ambiental na Suécia.</p>
-                <p>2018: Aprovação da Base Nacional Comum Curricular (BNCC) no Brasil, integrando a educação ambiental nos currículos escolares.</p>
-                <p>2021: Realização da Conferência das Nações Unidas sobre Mudança Climática (COP26) em Glasgow, destacando a importância da educação ambiental para enfrentar a crise climática.</p>
-                <p>2023: Comemoração do 50º aniversário da Secretaria Especial do Meio Ambiente (SEMA) no Brasil, importante marco para o desenvolvimento da educação ambiental no Brasil.</p>
+                <p>2018: Aprovação da Base Nacional Comum Curricular (BNCC) no Brasil, integrando a educação ambiental
+                    nos currículos escolares.</p>
+                <p>2021: Realização da Conferência das Nações Unidas sobre Mudança Climática (COP26) em Glasgow,
+                    destacando a importância da educação ambiental para enfrentar a crise climática.</p>
+                <p>2023: Comemoração do 50º aniversário da Secretaria Especial do Meio Ambiente (SEMA) no Brasil,
+                    importante marco para o desenvolvimento da educação ambiental no Brasil.</p>
             </li>
+
+            <li class="timeline-item">
+
+                <!-- Botão para redirecionar para a página do PDF -->
+                <div class="center-content">
+                    <button onclick="window.open('view.html')">Visualizar PDF</button>
+                </div>
+
+                <!-- Informações do artigo -->
+                <div class="article-meta">
+                    <p><strong>Pesquisa em Educação Ambiental</strong>, v. 18, n. 1, 2023 <a
+                            href="http://dx.doi.org/10.18675/2177-580X.2023-17629" target="_blank">DOI</a></p>
+                </div>
+
+                <div class="article-section">
+                    <h2>A Educação Ambiental no Brasil: marcos legais e implementação curricular</h2>
+                    <p><strong>Mariana Guenther</strong> (Professora Associada e Livre Docente da Universidade de
+                        Pernambuco, Docente permanente do Programa de Pós-Graduação em Gestão do Desenvolvimento Local
+                        Sustentável da Universidade de Pernambuco) - <a
+                            href="mailto:mariana.guenther@upe.br">mariana.guenther@upe.br</a></p>
+                    <p><strong>Maryane Caroline Pedroza de Almeida</strong> (Graduada em Direito pela Universidade de
+                        Pernambuco; Mestra em Gestão do Desenvolvimento Local Sustentável pela Universidade de
+                        Pernambuco) - <a href="mailto:maryanepedroza@hotmail.com">maryanepedroza@hotmail.com</a></p>
+                </div>
+
+                <div class="article-section">
+                    <h2>Resumo</h2>
+                    <p>Desde a Revolução Industrial, no século XVIII, nossa relação predatória com o meio ambiente vem
+                        se agravando, levando à extinção dos recursos naturais e a graves problemas de poluição. Diante
+                        desse cenário, a partir da década de 1950, houve muitas discussões, negociações, e grandes
+                        avanços foram conquistados no sentido de propor soluções para minimizar esses impactos...</p>
+                </div>
+
+            </li>
+
         </ul>
 
         <div class="chart-container">
-    <h2>Gráfico de Impacto Ambiental</h2>
-    <canvas id="impactChart"></canvas>
-</div>
-
-<div class="chart-container">
-    <h2>Emissões de Gases de Efeito Estufa por Setor</h2>
-    <canvas id="sectorEmissionsChart"></canvas>
-</div>
-
-
-
-
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/ZVYFwL9MkO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2>Gráfico de Impacto Ambiental</h2>
+            <canvas id="impactChart"></canvas>
         </div>
-        <p class="source">Fonte do vídeo: YouTube</p>
 
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/0gMtN7Y-T6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="chart-container">
+            <h2>Emissões de Gases de Efeito Estufa por Setor</h2>
+            <canvas id="sectorEmissionsChart"></canvas>
         </div>
-        <p class="source">Fonte do vídeo: YouTube</p>
 
-        <div class="image-container">
-            <img src="Acess/História 1.png" alt="Imagem sobre a história da educação ambiental">
-            <img src="Acess/História 2.png" alt="Imagem sobre a história da educação ambiental">
-        </div>
+
+
+
+
     </section>
 
     <footer>
@@ -302,7 +402,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
         // Script para exibir/esconder o botão conforme a rolagem da página
-        window.onscroll = function() {
+        window.onscroll = function () {
             var button = document.querySelector('.back-to-top');
             if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
                 button.style.display = 'block';
@@ -312,7 +412,7 @@
         };
 
         // Script para esconder o botão em telas maiores que 768px
-        window.onload = function() {
+        window.onload = function () {
             var button = document.querySelector('.back-to-top');
             if (window.innerWidth > 768) {
                 button.style.display = 'none';
@@ -321,7 +421,7 @@
             }
         };
 
-        window.onresize = function() {
+        window.onresize = function () {
             var button = document.querySelector('.back-to-top');
             if (window.innerWidth > 768) {
                 button.style.display = 'none';
@@ -364,10 +464,10 @@
                 }
             }
         });
-        
 
-         // Gráfico de Emissões de Gases de Efeito Estufa por Setor
-         var ctxSector = document.getElementById('sectorEmissionsChart').getContext('2d');
+
+        // Gráfico de Emissões de Gases de Efeito Estufa por Setor
+        var ctxSector = document.getElementById('sectorEmissionsChart').getContext('2d');
         var sectorEmissionsChart = new Chart(ctxSector, {
             type: 'pie',
             data: {
